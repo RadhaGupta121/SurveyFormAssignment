@@ -1,0 +1,77 @@
+#hidden{
+    display: none;
+}
+.error{
+    background-color: red;
+    position: fixed;
+    top:3rem;
+    right: 0.3rem;
+    height: 4rem;
+    width: 15rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+margin: auto;
+margin-top: 2rem;
+
+}
+form{
+    border: 2px solid black;
+    padding: 2rem;
+   background-color: lavender;
+   color: black;
+}
+.input{
+    width: 20rem;
+}
+input ,select{
+    height: 2rem;
+    border-style: none;
+    padding-left: 0.5rem;
+  
+}
+.input{
+    position: relative;
+    overflow: hidden;
+    transition: all ease 0.5s;
+    
+}
+.input:hover{
+    box-shadow: 10px 10px 0px rgb(34, 31, 33);
+  }
+h1{
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    position: relative;
+     overflow: hidden;
+     color: black;
+     background-color: rgb(237, 131, 237);
+     border-radius: 5px;
+     border: none;
+      height: 39px;
+      width: 90px;
+      padding:12px;
+      font-size: 16px;
+      cursor:pointer;
+      transition: all ease 0.5s;
+    
+  }
+  button:hover{
+    box-shadow: 10px 10px 0px rgb(34, 31, 33);
+    background-color: black;
+    color: white;
+  }
+  
+  button:last-child{
+   
+    margin-left:2rem;
+  }
